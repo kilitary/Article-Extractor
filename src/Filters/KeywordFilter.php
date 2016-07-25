@@ -30,7 +30,7 @@
 		public static function filter(&$article)
 		{
 			// Can't perform this filter unless language is known
-			if(!isset($article->language))
+			if(!isset($article->language) || empty($article->language))
 			{
 				return;
 			}
