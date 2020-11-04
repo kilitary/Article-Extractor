@@ -1,8 +1,8 @@
 {
-	"name": "zackslash/php-web-article-extractor",
+	"name": "kilitary/php-web-article-extractor",
 	"description": "Web Article Extractor",
 	"version": "0.1.2",
-	"homepage": "https://github.com/zackslash/php-web-article-extractor",
+	"homepage": "https://github.com/kilitary/php-web-article-extractor",
 	"license": "MIT",
 	"minimum-stability": "dev",
 	"require": {
