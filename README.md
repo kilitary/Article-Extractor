@@ -1,7 +1,9 @@
 # PHP Web Article Extractor
 
 Web Article Extractor is a PHP library that detects and extracts the primary 'article' content from a web page
+```
 composer require kilitary/php-web-article-extractor
+```
 
 ## Features
 
