@@ -114,7 +114,7 @@
 		{
 			$dom = new \DOMDocument();
 			libxml_use_internal_errors(true);
-			$dom->loadHTML($html);
+			$dom->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8'));
 			$xpath = new \DOMXPath($dom);
 			
 			// Load resources for tag actions
